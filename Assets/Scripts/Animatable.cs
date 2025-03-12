@@ -5,8 +5,6 @@ public class Animatable : MonoBehaviour
     public Animator objectAnimator;
     public string animationBoolParam;
     public string customMessage;
-
-
     public string GetInteractionMessage()
     {
         return string.IsNullOrEmpty(customMessage) ? "Interagir com " + gameObject.name : customMessage;
